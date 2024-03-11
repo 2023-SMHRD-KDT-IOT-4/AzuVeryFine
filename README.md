@@ -13,14 +13,14 @@
 
 ## ⭐ 주요 기능
 * <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/blob/fc5135a3aefc7988bdfcf7c55fb5a2ec9bde6522/src/main/java/com/example/demo/controller/MemberController.java#L49" target='_blank'>로그인</a>
-* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/5932b06e61ec18a37b08d3551dda5b119814fd0fsrc/main/java/com/example/demo/controller/MemberController.java" target='_blank'>회원가입</a>
-* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/f2b095a8d419a5fa624f548c328460c767a2cbe4src/main/java/com/example/demo/controller/MemberController.java" target='_blank'>회원정보수정</a>
-* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/6ed71015bf56962175930eb8ae56db0ff860e409src/main/java/com/example/demo/controller/MemberController.java" target='_blank'>오염도</a>
-* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/309e12c2576cc49f902ab4801e61559053912015src/main/java/com/example/demo/controller/MemberController.java" target='_blank'>오탁수 처리량, 실시간 유입량, 일일 유입량 그래프 확인</a>
-* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/024430fdf3754f0b9a2d9096eee0bf81b2bcf283src/main/java/com/example/demo/controller/MemberController.java" target='_blank'>배관밸브제어</a>
-* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/f475dc0ad8f35d0521afac280c6413ebd408d85dsrc/main/java/com/example/demo/controller/MemberController.java" target='_blank'>약제 투입(양조절 기능)</a>
+* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/blob/fc5135a3aefc7988bdfcf7c55fb5a2ec9bde6522/src/main/java/com/example/demo/controller/MemberController.java#L99" target='_blank'>회원가입</a>
+* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/blob/fc5135a3aefc7988bdfcf7c55fb5a2ec9bde6522/src/main/java/com/example/demo/controller/MemberController.java#L137" target='_blank'>회원정보수정</a>
+* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/blob/fc5135a3aefc7988bdfcf7c55fb5a2ec9bde6522/src/main/webapp/WEB-INF/views/index.jsp#L273" target='_blank'>오염도</a>
+* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/blob/fc5135a3aefc7988bdfcf7c55fb5a2ec9bde6522/src/main/webapp/WEB-INF/views/index.jsp#L110" target='_blank'>오탁수 처리량, 실시간 유입량, 일일 유입량 그래프 확인</a>
+* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/blob/fc5135a3aefc7988bdfcf7c55fb5a2ec9bde6522/src/main/webapp/WEB-INF/views/power.jsp#L111" target='_blank'>배관밸브제어</a>
+* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/blob/fc5135a3aefc7988bdfcf7c55fb5a2ec9bde6522/src/main/webapp/WEB-INF/views/precise.jsp#L51" target='_blank'>약제 투입(양조절 기능)</a>
 * 카메라 실시간 확인기능
-* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/5932b06e61ec18a37b08d3551dda5b119814fd0fsrc/main/java/com/example/demo/controller/MemberController.java" target='_blank'>알람기능</a>
+* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/blob/fc5135a3aefc7988bdfcf7c55fb5a2ec9bde6522/src/main/resources/static/assets/js/scripts2.js#L28" target='_blank'>알람기능</a>
 <br>
 
 ## ⛏ 기술스택
