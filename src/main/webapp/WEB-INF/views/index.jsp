@@ -148,60 +148,52 @@
                 }
             }
         });});
+    
+    function updateRealtimeOutflowChart() {
+        // 새로운 데이터 가져와서 업데이트
+        // 서버에서 데이터를 받아옴
+        // 센서 데이터를 전역 변수에 저장             
+        // 최신 데이터를 receivedOutFlow에 저장
+        var receivedOutFlow = window.sensorData.outFlowValue;
 
-        // 실시간 유입량 업데이트
-        function updateRealtimeInflowChart() {
-            // 새로운 데이터 가져와서 업데이트
-             // 서버에서 데이터를 받아옴
-                 // 센서 데이터를 전역 변수에 저장             
+        if (receivedOutFlow !== null) {
+            if (!window.receivedOutFlowArray) {
+                window.receivedOutFlowArray = [];
+            }
 
-                 // 최신 데이터를 receivedInFlow에 저장
-                 var receivedInFlow = window.sensorData.inFlowValue;
-             	 console.log("업데이트 리얼타임 메서드 : "+receivedInFlow);
+            window.receivedOutFlowArray.push(receivedOutFlow); // 새로운 데이터를 배열에 추가
 
-             	if (receivedInFlow !== null) {
-                    if (!window.receivedInFlowArray) {
-                        window.receivedInFlowArray = [];
-                    }
+            // 데이터 개수가 너무 많아지면, 오래된 데이터 삭제
+            if (window.receivedOutFlowArray.length > 5) {
+                window.receivedOutFlowArray.shift(); // 가장 오래된 데이터 삭제
+            }
 
-                    window.receivedInFlowArray.push(receivedInFlow); // 새로운 데이터를 배열에 추가
+            // 배열의 데이터를 그래프에 적용
+            chart3.data.datasets[0].data = window.receivedOutFlowArray;
 
-                    // 데이터 개수가 너무 많아지면, 오래된 데이터 삭제
-                    if (window.receivedInFlowArray.length > 5) {
-                        window.receivedInFlowArray.shift(); // 가장 오래된 데이터 삭제
-                    }
+            // 새로운 라벨 추가 (분과 초만 포함)
+            var currentDate = new Date();
+            var minutes = currentDate.getMinutes();
+            var seconds = currentDate.getSeconds();
+            var formattedTime = minutes + ':' + seconds;
+            chart3.data.labels.push(formattedTime);
 
-                    // 배열의 데이터를 그래프에 적용
-                    realtimeChart.data.datasets[0].data = window.receivedInFlowArray;
+            // 라벨 개수가 데이터 개수보다 많으면, 오래된 라벨 삭제
+            if (chart3.data.labels.length > window.receivedOutFlowArray.length) {
+                chart3.data.labels.shift(); // 가장 오래된 라벨 삭제
+            }
 
-                    // 새로운 라벨 추가
-                    var currentDate = new Date();
-				    var minutes = currentDate.getMinutes();
-				    var seconds = currentDate.getSeconds();
-				    var formattedTime = minutes + ':' + seconds;
-				    realtimeChart.data.labels.push(formattedTime);
+            chart3.update();
+        } else {
+            console.log("유출량 데이터를 받아오지 못했습니다.");
+        }
+    }
 
-                    // 라벨 개수가 데이터 개수보다 많으면, 오래된 라벨 삭제
-                    if (realtimeChart.data.labels.length > window.receivedInFlowArray.length) {
-                        realtimeChart.data.labels.shift(); // 가장 오래된 라벨 삭제
-                    }
+    setInterval(function () {            
+        updateRealtimeOutflowChart();
+    }, 10000);
 
-                    realtimeChart.update();
-                } else {
-                    console.log("유입량 데이터를 받아오지 못했습니다.");
-                }
-             };
-         
-
-        setInterval(function () {
-            // 새로운 데이터 가져와서 업데이트
-            console.log("뉴데이터");
-            
-           
-                console.log("new" + window.sensorData.inFlowValue)
-                updateRealtimeInflowChart(); // 인자를 제거하고 함수를 호출
-            
-        }, 10000);
+        
         	
 
         // 그래프 2 (일일 오탁수 처리량)
@@ -348,49 +340,58 @@
             }
         });
         
-     // 실시간 유출량 업데이트
-        function updateRealtimeOutflowChart() {
+     // 실시간 유입량 업데이트
+        function updateRealtimeInflowChart() {
             // 새로운 데이터 가져와서 업데이트
-            // 서버에서 데이터를 받아옴
-            // 센서 데이터를 전역 변수에 저장             
-            // 최신 데이터를 receivedOutFlow에 저장
-            var receivedOutFlow = window.sensorData.outFlowValue;
+             // 서버에서 데이터를 받아옴
+                 // 센서 데이터를 전역 변수에 저장             
 
-            if (receivedOutFlow !== null) {
-                if (!window.receivedOutFlowArray) {
-                    window.receivedOutFlowArray = [];
+                 // 최신 데이터를 receivedInFlow에 저장
+                 var receivedInFlow = window.sensorData.inFlowValue;
+             	 console.log("업데이트 리얼타임 메서드 : "+receivedInFlow);
+
+             	if (receivedInFlow !== null) {
+                    if (!window.receivedInFlowArray) {
+                        window.receivedInFlowArray = [];
+                    }
+
+                    window.receivedInFlowArray.push(receivedInFlow); // 새로운 데이터를 배열에 추가
+
+                    // 데이터 개수가 너무 많아지면, 오래된 데이터 삭제
+                    if (window.receivedInFlowArray.length > 5) {
+                        window.receivedInFlowArray.shift(); // 가장 오래된 데이터 삭제
+                    }
+
+                    // 배열의 데이터를 그래프에 적용
+                    realtimeChart.data.datasets[0].data = window.receivedInFlowArray;
+
+                    // 새로운 라벨 추가
+                    var currentDate = new Date();
+				    var minutes = currentDate.getMinutes();
+				    var seconds = currentDate.getSeconds();
+				    var formattedTime = minutes + ':' + seconds;
+				    realtimeChart.data.labels.push(formattedTime);
+
+                    // 라벨 개수가 데이터 개수보다 많으면, 오래된 라벨 삭제
+                    if (realtimeChart.data.labels.length > window.receivedInFlowArray.length) {
+                        realtimeChart.data.labels.shift(); // 가장 오래된 라벨 삭제
+                    }
+
+                    realtimeChart.update();
+                } else {
+                    console.log("유입량 데이터를 받아오지 못했습니다.");
                 }
+             };
+         
 
-                window.receivedOutFlowArray.push(receivedOutFlow); // 새로운 데이터를 배열에 추가
-
-                // 데이터 개수가 너무 많아지면, 오래된 데이터 삭제
-                if (window.receivedOutFlowArray.length > 5) {
-                    window.receivedOutFlowArray.shift(); // 가장 오래된 데이터 삭제
-                }
-
-                // 배열의 데이터를 그래프에 적용
-                chart3.data.datasets[0].data = window.receivedOutFlowArray;
-
-                // 새로운 라벨 추가 (분과 초만 포함)
-                var currentDate = new Date();
-                var minutes = currentDate.getMinutes();
-                var seconds = currentDate.getSeconds();
-                var formattedTime = minutes + ':' + seconds;
-                chart3.data.labels.push(formattedTime);
-
-                // 라벨 개수가 데이터 개수보다 많으면, 오래된 라벨 삭제
-                if (chart3.data.labels.length > window.receivedOutFlowArray.length) {
-                    chart3.data.labels.shift(); // 가장 오래된 라벨 삭제
-                }
-
-                chart3.update();
-            } else {
-                console.log("유출량 데이터를 받아오지 못했습니다.");
-            }
-        }
-
-        setInterval(function () {            
-            updateRealtimeOutflowChart();
+        setInterval(function () {
+            // 새로운 데이터 가져와서 업데이트
+            console.log("뉴데이터");
+            
+           
+                console.log("new" + window.sensorData.inFlowValue)
+                updateRealtimeInflowChart(); // 인자를 제거하고 함수를 호출
+            
         }, 10000);
 
         // 그래프 4 (일일 유입량)

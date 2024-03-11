@@ -40,7 +40,7 @@ window.addEventListener('DOMContentLoaded', event => {
                     lastTurbidAlertTime = Date.now(); // 알림 시간 갱신
                 }
             } else {
-                if(data.turbidValue <= 4) {
+                if(data.turbidValue >= 4) {
                     if (Date.now() - lastTurbidAlertTime > 5 * 60 * 1000) {
                         alert("탁도값이 높습니다");
                         lastTurbidAlertTime = Date.now(); // 알림 시간 갱신

@@ -52,12 +52,8 @@ public class RaspController {
 	
 	@GetMapping("/getGraphData")
 	public SensorData getGraphData() {
-		System.out.println("겟그래프데이터 들어옴 ㅇㅇ");
 	    SensorData emptySensorData = sensorData; // 현재 센서데이터 인스턴스를 새로운 변수에 할당
-	    
-	    BigDecimal intValue = BigDecimal.valueOf(0);
-	    sensorData.setInFlowValue(intValue); // 현재 센서데이터 인스턴스를 비움
-	    sensorData.setOutFlowValue(intValue);
+	    sensorData = null; // 현재 센서데이터 인스턴스를 비움
 	    return emptySensorData; // 비워진 센서데이터를 반환
 	}
 	
