@@ -20,7 +20,7 @@
 * <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/024430fdf3754f0b9a2d9096eee0bf81b2bcf283src/main/java/com/example/demo/controller/MemberController.java" target='_blank'>배관밸브제어</a>
 * <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/f475dc0ad8f35d0521afac280c6413ebd408d85dsrc/main/java/com/example/demo/controller/MemberController.java" target='_blank'>약제 투입(양조절 기능)</a>
 * 카메라 실시간 확인기능
-<a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/5932b06e61ec18a37b08d3551dda5b119814fd0fsrc/main/java/com/example/demo/controller/MemberController.java" target='_blank'>알람기능</a>
+* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/5932b06e61ec18a37b08d3551dda5b119814fd0fsrc/main/java/com/example/demo/controller/MemberController.java" target='_blank'>알람기능</a>
 <br>
 
 ## ⛏ 기술스택
