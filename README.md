@@ -1,5 +1,5 @@
-# 리드미 프레임만 만들어놓으려고 복붙해놧음.
-![image](https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/assets/152847507/aab54409-267d-4f5e-adfe-cb0f5da11ba7)
+![image](https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/assets/152847507/e76e03a0-7266-4c29-97ff-2b443a98a8d7)
+
 
 
 ## 👀 서비스 소개
@@ -12,13 +12,15 @@
 <br>
 
 ## ⭐ 주요 기능
-* 로그인/회원가입/회원정보수정
-* 오탁수 처리량, 오염도, 실시간 유입량, 일일 유입량 그래프 확인
-* 배관밸브제어
-* 약제 투입(양조절 기능)
+* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/blob/fc5135a3aefc7988bdfcf7c55fb5a2ec9bde6522/src/main/java/com/example/demo/controller/MemberController.java#L49" target='_blank'>로그인</a>
+* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/blob/fc5135a3aefc7988bdfcf7c55fb5a2ec9bde6522/src/main/java/com/example/demo/controller/MemberController.java#L99" target='_blank'>회원가입</a>
+* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/blob/fc5135a3aefc7988bdfcf7c55fb5a2ec9bde6522/src/main/java/com/example/demo/controller/MemberController.java#L137" target='_blank'>회원정보수정</a>
+* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/blob/fc5135a3aefc7988bdfcf7c55fb5a2ec9bde6522/src/main/webapp/WEB-INF/views/index.jsp#L273" target='_blank'>오염도</a>
+* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/blob/fc5135a3aefc7988bdfcf7c55fb5a2ec9bde6522/src/main/webapp/WEB-INF/views/index.jsp#L110" target='_blank'>오탁수 처리량, 실시간 유입량, 일일 유입량 그래프 확인</a>
+* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/blob/fc5135a3aefc7988bdfcf7c55fb5a2ec9bde6522/src/main/webapp/WEB-INF/views/power.jsp#L111" target='_blank'>배관밸브제어</a>
+* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/blob/fc5135a3aefc7988bdfcf7c55fb5a2ec9bde6522/src/main/webapp/WEB-INF/views/precise.jsp#L51" target='_blank'>약제 투입(양조절 기능)</a>
 * 카메라 실시간 확인기능
-* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/Repo/blob/eb78bd65a676770a437d7aee8d3b4b003fde1bb1/Middle_project12/src/main/java/com/smhrd/bicycle/AlarmController.java" target='_blank'>알람기능</a>
-
+* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/blob/fc5135a3aefc7988bdfcf7c55fb5a2ec9bde6522/src/main/resources/static/assets/js/scripts2.js#L28" target='_blank'>알람기능</a>
 <br>
 
 ## ⛏ 기술스택
@@ -37,23 +39,18 @@
         </td>
     </tr>
     <tr>
-        <td>라이브러리</td>
-        <td>
-            <img src="https://img.shields.io/badge/Kakao Map Api-007CE2?style=for-the-badge&logo=KaKao Map Api&logoColor=white">
-        </td>
-    </tr>
-    <tr>
         <td>개발도구</td>
         <td>
-            <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"/> 
-            <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white"/>
+            <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"/>
+            <img src="https://img.shields.io/badge/raspberrypi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white">
             <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=VisualStudioCode&logoColor=white"/>
+            <img src="https://img.shields.io/badge/kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
         </td>
     </tr>
     <tr>
         <td>서버환경</td>
         <td>
-            <img src="https://img.shields.io/badge/Apache Tomcat-D22128?style=for-the-badge&logo=Apache Tomcat&logoColor=white"/>
+            <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
         </td>
     </tr>
     <tr>
@@ -74,12 +71,14 @@
 <br>
 
 ## ⚙ 시스템 아키텍처
-![image](https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/assets/152847507/f4b1f012-261d-4d5f-b30e-c4dbf5c3ca7a)
+![image](https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/assets/152847507/ce4aeafa-679f-4774-a5c4-bb42bbb85f48)
+
 
 <br>
 
 ## 📌 회로도
-![image](https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/assets/152847507/b880dd25-6752-41d8-86e0-324f1d9c295d)
+![image](https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/assets/152847507/76fbaf97-d69e-4ceb-b439-b56687cbaaec)
+
 
 <br>
 
@@ -99,7 +98,7 @@
 
 <br>
 
-## 🖥 화면 구성
+## 🖥 웹 화면 구성
 ### 메인화면
 ![image](https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/assets/152847507/e32faaf6-173b-496f-9aca-89832627597f)
 
@@ -142,6 +141,46 @@
 <ul><li>다른 페이지에서 사용하고자 하는 페이지로 이동을 용이하게 메뉴를 각 페이지에 할당함</li></ul>
 <br>
 
+## 🖥 어플 화면 구성
+
+### 회원가입/로그인
+![image](https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/assets/152847507/3f64d5cc-f696-4f0a-91f8-46ed024b17c9)
+
+<br>
+<ul><li>회원 가입페이지에서 회원 가입할 수 있고 로그인 후 기능들을 사용할 수 있음
+<br>
+
+### 그래프표시
+![image](https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/assets/152847507/ea7d39e1-0369-489a-b0e4-3888a510e906)
+
+<br>
+<ul><li>로그인 이후 그래프값이 나오게 화면구성</li></ul>
+<br>
+    
+### 밸브제어
+![image](https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/assets/152847507/b4e8bad1-fb5d-4745-a084-80de8ffdeec6)
+
+<br>
+<ul><li>기기 제어 배관 밸브 제어 페이지에서 배관을 열기(물유입) / 닫기(물유출) 상태로 전환 가능</li></ul>
+<br>
+    
+### 약제 투입
+![image](https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/assets/152847507/0e8b245f-6556-4e8a-b211-d7aee270af14)
+
+<br>
+<ul><li>약제를 어느정도나 투입할건지 입력하면 기존 양에 마이너스되어 값이 저장됨</li></ul>
+<br>
+    
+### 회원 정보 수정
+![image](https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/assets/152847507/173ab331-2d08-4569-884f-3b8df15dc73f)
+
+<br>
+<ul><li>회원 정보 수정에서 회원 정보수정 기능을 이용할 수 있음</li></ul>
+<br>
+
+
+
+
 ## 👨‍👩‍👦‍👦 팀원 역할
 <table>
   <tr>
@@ -163,25 +202,38 @@
   </tr>
   
   <tr>
-    <td align="center"><b>Frontend</b></td>
+    <td align="center"><b>Backend</b></td>
     <td align="center"><b>Backend</b></td>  
-    <td align="center"><b>DataBase</b></td>  
-    <td align="center"><b>DataBase</b></td>  
+    <td align="center"><b>Embedded</b></td>  
+    <td align="center"><b>Embedded</b></td>  
     <td align="center"><b>Frontend</b></td>
   </tr>
   
   <tr>
-    <td align="center"><a href="https://github.com/HUNMINRYU" target='_blank'>github</a></td>
     <td align="center"><a href="https://github.com/dlrjsdud" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/YangYunHyeong/YunHyeong" target='_blank'>github</a></td>
     <td align="center"><a href="https://github.com/WooRiGyeoRe" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/YangYnuHyeong" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/dlwlsdn808" target='_blank'>github</a></td>
     <td align="center"><a href="https://github.com/dlwlsdn808" target='_blank'>github</a></td>
   </tr>
   </table>
 
 
 ### 이건영
-
+  * **프로젝트 팀장**, 퍼블리싱을 제외한 웹/앱 전반적인 기능 구현
+  * SpringBoot 및 Android 프로젝트 **환경설정** 및 라이브러리 추가
+  * 로그인 시 **JWT**로 액세스/리프레시 토큰 발급 기능구현
+  * Token Provider 클래스를 통한 **토큰 생성 및 유효성 검사**, **인터셉터**를 통한 요청관리 구현
+  * 회원가입 주소 입력시 주소검색 **api** 사용
+  * **배관 밸브 제어** 프론트엔드/백엔드 및 **Remote Server 전송** 기능구현
+  * **실시간 및 일일** 유량 데이터 **그래프**로 출력하는 프론트엔드/백엔드 기능 구현
+  * ph,탁도 센서 값 높거나 전달안될 시 **사용자 알림** 프론트엔드/백엔드 기능 구현
+  * 약제투입 시 **투입시간/투입량 데이터베이스 저장** 기능 구현
+  * 사용자 경험 개선 및 비기능적 요구 달성을 위한 **다양한 비동기 통신 처리** 구현
+  * 프로젝트 구현중 필요에 따라 데이터베이스 테**이블,컬럼 생성 및 삭제 / 데이터타입 및 제약조건 수정**
+  * **JPA** 라이브러리, Hibernate를 이용한 데이터베이스 연결 및 **JPQL, Native Query** 사용
+  * 각 센서에서 받은 데이터 파싱하여 http통신을 통해 **Remote Server to Spring 전달** 기능구현
+  * 배관 밸브 제어 데이터 **Spring to Remote Server 전달** 기능구현
 ### 양윤형
 
 ### 조용성
@@ -194,6 +246,8 @@
 
 ## 🤾‍♂️ 트러블슈팅
 ### ● 문제1
+![image](https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/assets/152847507/c69ca3a9-bd4c-48bc-bdaa-78ec59522fe8)
+
 <ol>
     <li>Arduino NANO -> ESP32 d1 r32 => 블루투스 통신의 거리는 환경에 따라 다르지만 약 10m~100m의 거리제한을 가지고있음. 현재 시중에 나와있는 자전거 도난 방지의 제품들은 대부분이 블루투스 통신을 사용중이고 이에 따라, 물리적으로 도난을 막을 수 없다면 2차적인 대응으로 내 자전거의 위치를 확인하고 직접 찾으러 가는 방법이 있으면 좋겠다는 생각에 와이파이 통신으로 변경</li>
     <li>ESP32 d1 r32 -> Arduino UNO+wifi 모듈 => ESP32 d1 r32의 접근성 부족으로 인해 프로젝트 기간준수를 위한 접근성이 좋은 UNO보드+wifi모듈로 변경</li>
