@@ -21,7 +21,7 @@
 * <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/f475dc0ad8f35d0521afac280c6413ebd408d85d/FinalProject/src/main/java/com/example/demo/controller/MemberController.java" target='_blank'>약제 투입(양조절 기능)</a>
 * 카메라 실시간 확인기능
 * <a href="https://github.com/2023-SMHRD-KDT-IOT-4/Repo/blob/eb78bd65a676770a437d7aee8d3b4b003fde1bb1/Middle_project12/src/main/java/com/smhrd/bicycle/AlarmController.java" target='_blank'>알람기능</a>
-* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/5932b06e61ec18a37b08d3551dda5b119814fd0f/FinalProject/src/main/java/com/example/demo/controller/MemberController.java" target='_blank'>알람기능</a>
+* <a href="https://github.com/2023-SMHRD-KDT-IOT-4/AzuVeryFine/blob/4bf44f1d770cd79732a333db3a3862ef65feeb92/src/main/java/com/example/demo/controller/MemberController.java#L49" target='_blank'>알람기능</a>
 <br>
 
 ## ⛏ 기술스택
