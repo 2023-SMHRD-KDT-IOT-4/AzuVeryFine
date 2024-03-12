@@ -214,7 +214,7 @@
     <td align="center"><a href="https://github.com/YangYunHyeong/YunHyeong" target='_blank'>github</a></td>
     <td align="center"><a href="https://github.com/WooRiGyeoRe" target='_blank'>github</a></td>
     <td align="center"><a href="https://github.com/dlwlsdn808" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/dlwlsdn808" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/jukyunghun" target='_blank'>github</a></td>
   </tr>
   </table>
 
@@ -261,6 +261,13 @@
 ### 이진우
 
 ### 주경훈
+  * 웹 전체 페이지 구축 및 수정
+  * Dashboard 템플릿 선정
+  * CSS 활용 레이아웃 구축
+  * Chart.js 활용 데이터 시각화
+  * UI & UX 개선
+  * UI 디자인 호환성 체크
+  * 사용자 인터랙션 기능 추가
   
   
 
