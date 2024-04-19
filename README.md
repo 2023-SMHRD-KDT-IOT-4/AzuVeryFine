@@ -49,9 +49,9 @@
     <tr>
         <td>라이브러리</td>
         <td>
-            <img src="https://img.shields.io/badge/JPA-6DB33F?style=for-the-badge&logo=JPA&logoColor=white"/>
-            <img src="https://img.shields.io/badge/JWT-A22846?style=for-the-badge&logo=JWT&logoColor=white">
-            <img src="https://img.shields.io/badge/MPAndroidChart-007ACC?style=for-the-badge&logo=MPAndroidChart&logoColor=white"/>          
+            <img src="https://img.shields.io/badge/JPA-5P112D?style=for-the-badge&logo=JPA&logoColor=white"/>
+            <img src="https://img.shields.io/badge/JWT-5P112D?style=for-the-badge&logo=JWT&logoColor=white">
+            <img src="https://img.shields.io/badge/MPAndroidChart-5P112D?style=for-the-badge&logo=MPAndroidChart&logoColor=white"/>          
         </td>
     </tr>
     <tr>
