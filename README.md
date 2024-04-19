@@ -43,7 +43,7 @@
             <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"/>
             <img src="https://img.shields.io/badge/raspberrypi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white">
             <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=VisualStudioCode&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Android-007ACC?style=for-the-badge&logo=AndroidStudio&logoColor=white"/>            
+            <img src="https://img.shields.io/badge/AndroidStudio-7CFC00?style=for-the-badge&logo=Android&logoColor=white"/>            
         </td>
     </tr>
     <tr>
